@@ -159,6 +159,7 @@ class A:
             xxxxx_xxxxxxxxxxxx('xxx xxxxxx xxx xxxxxxxxx.xx xx xxxxxxxx.  xxx xxxxxxxxxxxxx.xx xxxxxxx '
                                + 'xx xxxxxx xxxxxx xxxxxx xx xxxxxxx xxx xxx ${0} xx x xxxxxxxx xxxxx'.xxxxxx(xxxxxx_xxxxxx_xxx))
 
+
 class A:
     class B:
         def foo():
@@ -170,6 +171,7 @@ class A:
                 # 'xxxxxxxxxxxxxxxxx'
                 'xxxxxxxxxx' : xxxxx_xxxxx,
                 }
+
 
 class A:
     def xxxx_xxx_xx_xxxxxxxxxx_xxxx_xxxxxxxxx(xxxx):
@@ -245,6 +247,7 @@ fstring = (
     f" But not {this}."
 )
 
+
 class A:
     class B:
         def foo():
@@ -273,6 +276,7 @@ def foo():
         xyz
     )
 
+
 class A:
     class B:
         def foo():
@@ -285,6 +289,7 @@ class A:
                     "For more information, see "
                     "https://docs.djangoproject.com/en/%s/topics/migrations/#serializing-values"
                     % (name, module_name, get_docs_version()))
+
 
 class A:
     class B:
@@ -300,6 +305,7 @@ x = (
     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 )
+
 
 class Step(StepBase):
     def who(self):
@@ -342,6 +348,7 @@ def A():
                                 c_float(val[0][0] / val[0][1]).value
                                 == c_float(value[0][0] / value[0][1]).value
                             ), "%s didn't roundtrip" % tag
+
 
 class xxxxxxxxxxxxxxxxxxxxx(xxxx.xxxxxxxxxxxxx):
     def xxxxxxx_xxxxxx(xxxx):

@@ -379,7 +379,7 @@ class Node(Base):
         _next[id(current)] = None
 
 
-class Leaf(Base):
+Leaf(Base):
     """Concrete implementation for leaf nodes."""
 
     # Default values for instance variables

@@ -15,6 +15,7 @@ class X:
             self.min_length,
         ) % {'min_length': self.min_length}
 
+
 class A:
     def b(self):
         if self.connection.mysql_is_mariadb and (
